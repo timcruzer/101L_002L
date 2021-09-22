@@ -1,5 +1,5 @@
 #CS 101 Lab
-#Program 2
+#Lab Assignment 2
 #Tim Cruz
 #tcc3t7@umsystem.edu
 #Create a Lab grade calculator.
