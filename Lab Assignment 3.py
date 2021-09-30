@@ -1,3 +1,8 @@
+#CS 101 Lab
+#Lab Assignment 3/Flarsheim Guesser
+#Tim Cruz
+#tcc3t7@umsystem.edu
+#Create a guessing game with loops.
 def guesser():
     r3, r5, r7 = 'a', 'a', 'a'
     print('Welcome to the Flarsheim Guesser!\n')
