@@ -1,10 +1,33 @@
-
+########################################################################
+##
+## CS 101 Lab
+## Lab 5
+## Tim Cruz
+## tcc3t7@umsystem.edu
+##
+## PROBLEM : Create a slots machine
+##
+## ALGORITHM : 
+##      1. Ask user how many chips to start with.
+##      2. Ask how many chips user wants to wager
+##      3. Show 3 random numbers and tell how many matched
+##      4. Tell user how many chips they won or lost and tell them their bank
+##      5. When user loses, ask if they want to play again
+## 
+## ERROR HANDLING:
+##      Any Special Error handling to be noted.  Wager less than 0/more than 100
+##      play again input. Bank less than 0/more than 100
+##
+## OTHER COMMENTS:
+##      N/A
+##
+########################################################################
 import random
 def play_again() -> bool:
     while True:
         play = input('Do you want to play again? ==> ')
         play = play.lower()
-        if (play == 'y') or (play == 'Y') or (play == 'yes') or (play == 'YES') or (play == 'Yes') or (play == 'yEs') or (play == 'yeS'):
+        if (play == 'y') or (play == 'Y') or (play == 'yes') or (play == 'YES') or (play == 'Yes') or (play == 'yEs') or (play == 'yeS') or (play == 'YEs') or (play == 'YeS') or (play == 'yES') :
             return True
         elif (play == 'n') or (play == 'N') or (play == 'no') or (play == 'No') or (play == 'nO'):
             return False
