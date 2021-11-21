@@ -43,8 +43,6 @@ def grab(file):
 
     return
     
-    
-
 if __name__ == "__main__":
     using = True
 
